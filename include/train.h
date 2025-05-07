@@ -13,10 +13,10 @@ class Train {
     Car *first;  // точка входа в поезд (первый вагон)
 
  public:
-   Train();
-   void addCar(bool light);
-   int getLength();
-   int getOpCount();
+  Train();
+  void addCar(bool light);
+  int getLength();
+  int getOpCount();
 };
 
 #endif  // INCLUDE_TRAIN_H_
