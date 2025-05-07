@@ -26,8 +26,8 @@ int Train::getLength() {
   do {
     cur = cur->next;
     ++length;
-    ++countOp;
   } while (cur != first);
+  countOp = 2 * length;
   return length;
 }
 
