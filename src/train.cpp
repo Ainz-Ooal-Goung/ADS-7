@@ -22,7 +22,7 @@ void Train::addCar(bool light) {
 int Train::getLength() {
   if (!first) return 0;
   int length = 0;
-  Car *cur = first;
+  const Car *cur = first;
   bool anyOff = false;
   do {
     if (!cur->light) anyOff = true;
